@@ -1,0 +1,23 @@
+{
+  "name": "blog-code-djscommandhandler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Floffah/blog-code-djscommandhandler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Floffah/blog-code-djscommandhandler/issues"
+  },
+  "homepage": "https://github.com/Floffah/blog-code-djscommandhandler#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  }
+}
