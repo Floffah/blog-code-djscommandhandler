@@ -19,7 +19,7 @@ fs.readdirSync(path.join(__dirname, 'commands')).forEach((f) => {
 });
 
 bot.on('message', (msg) => {
-    if(!msg.author.bot && msg.content.startsWith(config.prefix)) { // checks if the sender isnt a bot the message starts with the command prefix
+    if(!msg.author.bot && msg.content.startsWith(config.prefix)) { // checks if the sender isnt a bot and the message starts with the command prefix
         let command = msg.content.split(" ")[0].replace(config.prefix, "") //isolates the command name from the rest of the message. Does this by only getting the first word and removing the prefix.
         if(commands.has(command)) {
             let cmd = commands.get(command)
